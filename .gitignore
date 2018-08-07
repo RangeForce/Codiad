@@ -1,8 +1,8 @@
 *~
 *\#
 *.swp
-config.php
-data/
+data/*
+!data/users.php
 workspace/
 plugins/*
 !plugins/README.md
