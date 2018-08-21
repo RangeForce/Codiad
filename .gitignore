@@ -3,6 +3,7 @@
 *.swp
 data/*
 !data/users.php
+!data/active.php
 workspace/
 plugins/*
 !plugins/README.md
