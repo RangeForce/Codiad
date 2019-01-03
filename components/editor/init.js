@@ -386,7 +386,7 @@
 
         // Settings for Editor instances
         settings: {
-            theme: 'twilight',
+            theme: 'clouds',
             fontSize: '13px',
             printMargin: false,
             printMarginColumn: 80,
@@ -396,7 +396,7 @@
             softTabs: false,
             persistentModal: true,
             rightSidebarTrigger: false,
-            fileManagerTrigger: false,
+            fileManagerTrigger: true,
             tabSize: 4
         },
    

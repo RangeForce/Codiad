@@ -14,7 +14,7 @@
 define("BASE_PATH", dirname(__FILE__));
 
 // THEME : default, modern or clear (look at /themes)
-define("THEME", "default");
+define("THEME", "Codiad-Theme-Feisty");
 
 // ABSOLUTE PATH
 define("WHITEPATHS", '/');

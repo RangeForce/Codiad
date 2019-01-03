@@ -93,7 +93,8 @@
         //////////////////////////////////////////////////////////////////
         loadSide: function() {
             $('.sb-projects-content').load(this.dialog + '?action=sidelist&trigger='+localStorage.getItem('codiad.editor.fileManagerTrigger'));
-            this._sideExpanded = true;
+            this.projectsCollapse();
+            this._sideExpanded = false;
         },
         
         projectsExpand: function() {
