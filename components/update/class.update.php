@@ -41,6 +41,7 @@ class Update
 
     public function Init()
     {
+        return;
         $version = array();
         if (!file_exists(DATA ."/version.php")) {
             if (file_exists(BASE_PATH."/.git/HEAD")) {
